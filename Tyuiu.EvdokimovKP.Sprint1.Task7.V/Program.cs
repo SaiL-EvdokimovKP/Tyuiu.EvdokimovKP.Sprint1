@@ -31,4 +31,7 @@ Console.WriteLine("Введите значение Y");
 y = Convert.ToDouble(Console.ReadLine());
 
 double z = ds.Calculate(x, y);
+
+Console.WriteLine(" ");
+
 Console.WriteLine("z = " + z);
